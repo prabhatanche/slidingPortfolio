@@ -114,6 +114,7 @@ MENU SECTION STYLES
 ============================================================ */
 .navbar-inverse {
 background-color: rgba(502, 23, 0, 0.1);
+
 border-color: transparent;
 }
 
@@ -146,6 +147,21 @@ background-color: rgb(57, 171, 111);
 .navbar-inverse .navbar-toggle {
 border-color: rgb(57, 171, 111);
 }
+.navbar-inverse .navbar-brand {
+    min-height: 20px;
+    height: auto;
+ }
+
+.navbar ul li { 
+  height: 40px; 
+  line-height: 38px; 
+  }
+
+.navbar ul li > a { 
+  height: 40px; 
+  line-height: 38px; 
+  }
+
 
 
 /* =============================================================
